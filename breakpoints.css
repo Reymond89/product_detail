@@ -3,10 +3,14 @@
         padding-top: 40px;
         height: 100vh;
     }
+    .aside__arrow-up{
+        /* display: none; */
+    }
     .detail__wrapper{
         display: flex;
         flex-direction: row;
         padding: 50px 10px;
+        height: 800px;
     }
     .detail__margin{
         display: flex;
@@ -15,6 +19,14 @@
         padding: 30px 20px;
 
     }
+    .table__section{
+       padding: 40px 0;
+    }
+    .table__title{
+        font-size: 2rem;
+        font-weight: 600;
+        /* padding: 20px 0; */
+    }
     /* contenedor imagen */
     .detail__container-img{
         
@@ -22,7 +34,7 @@
         /* margin-top: 20px; */
     }
     .detal__hero{
-        width: 70%;
+        width: 90%;
     }
      /* contenedor descripcion */
 
@@ -62,6 +74,10 @@
         padding: 0 20px;
         margin-top: 20px;
         
+    }
+    .table__section{
+        width: 70%;
+        margin: 40px;
     }
 
    
